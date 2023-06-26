@@ -37,6 +37,7 @@ Git branch [nombreDeRamaNueva] #Crea nueva rama, copia del proyecto principal
 Git branch #Despliega las ramas del repositorio.
 Git branch -d [RamaASerEliminada] #Elimina una rama
 Git branch -a # lista todas las ramas, LOCALES Y REMOTAS.
+Git branch -r #Lista solo las ramas remotas.
 
 Git checkout [nombreDeRama] #Moving us from the current branch, to the one specified at the end of the command.
 Git checkout -b [RamaNueva] #crea la [RamaNueva] y la establece como la rama actual
