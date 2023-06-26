@@ -42,8 +42,8 @@ Git merge [RamaExterna] #combina una rama [RamaExterna] con la rama actual
 
 Git branch -d [RamaASerEliminada] #Elimina una rama
 
-
-
+Git fetch # Visualiza el historial de cambios en el [origin], pero no los implementa.
+Git pull # Implementa los cambios del remoto([oriigin)] en el repo local.
 
 
 
