@@ -35,14 +35,17 @@ Git log --online #Despliegue compacto. En una linea.
 
 Git branch [nombreDeRamaNueva] #Crea nueva rama, copia del proyecto principal  
 Git branch #Despliega las ramas del repositorio.
+Git branch -d [RamaASerEliminada] #Elimina una rama
+Git branch -a # lista todas las ramas, LOCALES Y REMOTAS.
+Git branch -r #Lista solo las ramas remotas.
 
 Git checkout [nombreDeRama] #Moving us from the current branch, to the one specified at the end of the command.
 Git checkout -b [RamaNueva] #crea la [RamaNueva] y la establece como la rama actual
+Si queremos "copiar" una rama remota en nuestro repo local.   Vasta con dar CHECKOUT HACIA ELLA, y luego hacer un PULL. 
+Al hacer un CHECKOUT, la rama remota es creada en local.
+
 
 Git merge [RamaExterna] #combina una rama [RamaExterna] con la rama actual
-
-Git branch -d [RamaASerEliminada] #Elimina una rama
-Git branch -a # MUESTRA TODAS LAS RAMAS, LOCALES Y REMOTAS.
 
 Git fetch # Visualiza el historial de cambios en el [origin], pero no los implementa.
 Git pull # Implementa los cambios del remoto([oriigin)] en el repo local.
@@ -53,6 +56,8 @@ Git log origin/main --oneline # Lista de commits en remoto(origin/main) Una sola
 Git diff orgin/main #diferencia con remoto (origin/main)
 
 Git merge origin/main #mbines the current branch, with a specified branch.
+
+Git push origin [ramalocal] #  Envia una rama local, con hacia el repo remoto.
 
 
 
