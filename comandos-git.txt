@@ -47,8 +47,6 @@ Al hacer un CHECKOUT, la rama remota es creada en local.
 
 Git merge [RamaExterna] #combina una rama [RamaExterna] con la rama actual
 
-
-
 Git fetch # Visualiza el historial de cambios en el [origin], pero no los implementa.
 Git pull # Implementa los cambios del remoto([oriigin)] en el repo local.
 
