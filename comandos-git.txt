@@ -41,6 +41,9 @@ Git branch -r #Lista solo las ramas remotas.
 
 Git checkout [nombreDeRama] #Moving us from the current branch, to the one specified at the end of the command.
 Git checkout -b [RamaNueva] #crea la [RamaNueva] y la establece como la rama actual
+Si queremos "copiar" una rama remota en nuestro repo local.   Vasta con dar CHECKOUT HACIA ELLA, y luego hacer un PULL. 
+Al hacer un CHECKOUT, la rama remota es creada en local.
+
 
 Git merge [RamaExterna] #combina una rama [RamaExterna] con la rama actual
 
@@ -55,6 +58,8 @@ Git log origin/main --oneline # Lista de commits en remoto(origin/main) Una sola
 Git diff orgin/main #diferencia con remoto (origin/main)
 
 Git merge origin/main #mbines the current branch, with a specified branch.
+
+Git push origin [ramalocal] #  Envia una rama local, con hacia el repo remoto.
 
 
 
