@@ -65,6 +65,9 @@ Git Remote Add [nombre-Rep-Remoto] URL #Establece un repositorio remoto para un 
 
 -Git push [nombre-Repo-Remoto] [branch-main] # Envia al nuevo repo-Remoto, la rama main (La actual)
 
+Git remote add origin2  URL
+GIT put origin2 main
+
 
 
 
