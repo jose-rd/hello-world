@@ -59,6 +59,12 @@ Git merge origin/main #mbines the current branch, with a specified branch.
 
 Git push origin [ramalocal] #  Envia una rama local, con hacia el repo remoto.
 
+//////////
+
+Git Remote Add [nombre-Rep-Remoto] URL #Establece un repositorio remoto para un repositorio local.  Un Repo local puede tener mas de un remoto.
+
+-Git push [nombre-Repo-Remoto] [branch-main] # Envia al nuevo repo-Remoto, la rama main (La actual)
+
 
 
 
