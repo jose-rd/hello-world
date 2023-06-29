@@ -81,4 +81,9 @@ ssh-add  ~/.ssh/id_rsa #Agrega la clave al SSh-Agent.
 
 clip < ~/.ssh/id_rsa.pub  #pega en memoria la clave ssh publica.
 
+git remote add ssh-origin url # where, [ssh-origin] es el nombre del repo remoto y
+                        [url] es la url-ssh del repo remoto (copiado del botn verde code, pesta;a ssh.
 
+Cambir de https a SSh (change a remote origin from HTTPS to SSH)
+git remote set-url remote-name git@github.com:username/repository.git
+git remote set-url origin git@github.com:jose-rd/hello-world.git
