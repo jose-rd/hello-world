@@ -1,5 +1,5 @@
 #Comandos de Git
-Git --version # Apropiado para saver si git esta instalado.
+Git --version # Apropiado para saber si git esta instalado.
 
 Git config --global user.name ["jose-rd] #git usa esta informacion para identificar quien hizo los cambioss
 Git config --global user.email ["textodigital@outlook.com"] #--global establece este id para todos los repositorio. Si removemos --global, el id solo se establece para el repositorio acgtual.
