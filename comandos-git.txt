@@ -87,3 +87,20 @@ git remote add ssh-origin url # where, [ssh-origin] es el nombre del repo remoto
 Cambir de https a SSh (change a remote origin from HTTPS to SSH)
 git remote set-url remote-name git@github.com:username/repository.git
 git remote set-url origin git@github.com:jose-rd/hello-world.git
+
+///////////
+revert is the command we use when we want to take a previous commit and add it as a new commit, keeping the log intact.
+git revert HEAD --no-edit #Deshace el ultimo commit
+git revert HEAD~x # Retrocede el commit numero [x] despues del head.
+
+reset is the command we use when we want to move the repository back to a previous commit, discarding any changes made after that commit.
+We reset our repository back to the specific commit using git reset commithash (commithash being the first 7 characters of the commit hash we found in the log)
+git reset 9a9add8
+
+commit --amend is used to modify the most recent commit.
+
+It combines changes in the staging environment with the latest commit, and creates a new commit.
+
+git commit --amend -m "Added lines to README.md" # Corrige el mensaje del ultimo commit.
+
+
